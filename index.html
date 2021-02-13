@@ -23,9 +23,9 @@
         <p>Here is some addtional text writing space for something.<br>  a description or something.</p>
             <a href="">Read more</a>
         </div>
-        <div class="right-col">
-        <p>Click below, vibes while your read</p>
-        <img src="photos/iconfinder_play_alt_118620.png" id="icon">
+        <div class="music">
+        <p></p>
+        <img src="photos/playimg.png" id="icon">
         </div>
     </div>
     <div class="image">
@@ -36,6 +36,9 @@
     <div class="links">
     <a href=""><i class="fab fa-youtube-square"></i></a>
     <a href=""><i class="fab fa-instagram-square"></i></a>
+    </div>
+    
+    <div class="linksz">
     <a href=""><i class="fab fa-discord"></i></a>
     </div>
     
@@ -50,10 +53,10 @@
     icon.onclick = function(){
         if(mysong.paused){
             mysong.play();
-            icon.src = "photos/pattern.png";  
+            icon.src = "photos/pauseimg.png";  
         }else{
             mysong.pause();
-            icon.src = "photos/iconfinder_play_alt_118620.png"; 
+            icon.src = "photos/playimg.png"; 
         }
     
     }

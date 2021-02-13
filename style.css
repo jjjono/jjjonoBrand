@@ -111,26 +111,33 @@ span{
     color: lightcoral;
 }
 
-.right-col{
+.music{
     margin-left: 9.7%;
-    margin-top: 15px;
+    margin-top: 19px;
     position: relative;
     right: 70px;
-  
+    bottom: -79.5px;
     align-items: center;
 }
-.right-col p {
-    font-size: 20px;
-    color: ;
-    font-weight: 400;
-    margin-right: 14px;
-    font-family: "Varela Round";
-    margin-bottom: 5px;
-}
+
 
 #icon{
-    width: 60px;
+    width: 35px;
     cursor: pointer; 
     
 }
 
+.linksz{
+    margin-left: 12.75%;
+    margin-top: -77px;
+    position: relative;
+    right: 70px;
+}
+.linksz a {
+    font-size: 40px;
+    color: orangered;
+}
+
+.linksz a:hover{
+    color: lightcoral;
+}
