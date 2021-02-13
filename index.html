@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>THIS WEBSITE NEED EDIDITNG</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+</head>
+<body>
+    <div class="main">
+    <nav>
+        <img src="photos/logo2.png" class="logo">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Job</a></li>
+            <li><a href="">Bio</a></li>
+        </ul>
+    </nav>
+        
+        <div class="description">
+        <h1>I'm <span>Jonathan</span> Joseph</h1>
+        <p>Here is some addtional text writing space for something.<br>  a description or something.</p>
+            <a href="">Read more</a>
+        </div>
+        <div class="right-col">
+        <p>Click below, vibes while your read</p>
+        <img src="photos/iconfinder_play_alt_118620.png" id="icon">
+        </div>
+    </div>
+    <div class="image">
+    <img src="photos/pattern.png" class="back-img">
+    <img src="photos/girl.png" class="main-img">
+    </div>
+    
+    <div class="links">
+    <a href=""><i class="fab fa-youtube-square"></i></a>
+    <a href=""><i class="fab fa-instagram-square"></i></a>
+    <a href=""><i class="fab fa-discord"></i></a>
+    </div>
+    
+    <audio id="mysong">
+    <source src="photos/Freesong.mp3" type="audio/mp3">
+    </audio>
+    
+<script>
+    var mysong = document.getElementById("mysong");
+    var icon = document.getElementById("icon");
+    
+    icon.onclick = function(){
+        if(mysong.paused){
+            mysong.play();
+            icon.src = "photos/pattern.png";  
+        }else{
+            mysong.pause();
+            icon.src = "photos/iconfinder_play_alt_118620.png"; 
+        }
+    
+    }
+        
+</script>
+    
+</body>
+</html>
